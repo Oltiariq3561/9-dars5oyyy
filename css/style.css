@@ -1,0 +1,88 @@
+.container{
+margin: 0;
+padding: 0;
+max-width: 1400px;
+margin: 0 auto;
+}
+.reg{
+    border: 1px solid rgb(190, 183, 183);
+    width: 500px;
+    height: 550px;
+    background-color: cadetblue;
+    border-radius: 5%;
+    display: flex;
+    margin: 0 auto;
+}
+
+h1{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: rgb(39, 38, 38);
+margin-left: 50px;
+}
+
+#myForm{
+margin-top: 50px;
+margin-left: 90px;
+}
+
+input{
+border: none;
+width: 308px;
+height: 53px;
+border-radius: 30px;
+background-color: #fff;
+}
+
+.inputBorder{
+width: 400px;
+height: 59px;
+border-radius: 40%;
+margin-bottom: 20px;
+}
+
+/* From Uiverse.io by NorthFishHasNa */ 
+button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #3d405b;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 17px;
+    padding: 12px;
+    width: 130px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 85px;
+    margin-top: 20px;
+   }
+   
+   button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+   }
+   
+   button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -15px;
+    transition: 0.5s;
+   }
+   
+   button:hover span {
+    padding-right: 15px;
+   }
+   
+   button:hover span:after {
+    opacity: 1;
+    right: 0;
+   }
+
+
+
+
