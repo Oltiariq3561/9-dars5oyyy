@@ -24,11 +24,11 @@ function uiChanger(myData) {
   ui.innerHTML = null;
   if (myData.length === 0) ui.innerHTML = `<h3>Ma'lumot mavjud emas</h3>`;
   myData.forEach((element) => {
-    const card = `<div>
+    const card = `<span>
       <h3>${element.username}</h3>
       <span>${element.age}</span>
       <p>${element.email}</p>
-    </div>
+    </span>
     `;
     ui.innerHTML += card;
   });
